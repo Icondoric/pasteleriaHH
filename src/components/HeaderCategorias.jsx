@@ -14,7 +14,7 @@ const HeaderCategorias = () => {
         <BotonMufin />
       </div>
       <div>
-        <h2 className="titulo">Donas</h2>
+        <h2 className="titulo">Pasteles</h2>
       </div>
     </section>
   );
