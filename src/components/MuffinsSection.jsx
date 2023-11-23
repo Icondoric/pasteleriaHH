@@ -8,7 +8,7 @@ function MuffinSection (props) {
       <div className="conteiner">
         <div className="descripcion">
           <div className="descripcion_texto">
-            <h3 className="dona_nombre">{infoMuffins.title}</h3>
+            <h3 className="muffin_nombre">{infoMuffins.title}</h3>
             <p>{infoMuffins.description}</p>
           </div>
           <div>

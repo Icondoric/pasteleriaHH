@@ -13,6 +13,7 @@
   }
   .disponibilidad {
     color: rgba(0, 0, 0, 0.25);
+    font-size: 16px;
   }
   .descripcion {
     display: flex;
@@ -32,15 +33,12 @@
     line-height: normal;
     align-items: flex-end;
   }
-  .dona_nombre {
+  .muffin_nombre {
     margin: 0;
-    border-bottom: 2px #000 solid;
+    border-bottom: 2px #311d76a1 solid;
   }
   p {
     margin: 0px;
-  }
-  .disp {
-    font-size: 16px;
   }
   
   .precios_superior{

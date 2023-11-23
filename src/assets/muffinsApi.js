@@ -4,7 +4,7 @@ export const infoMuffins = [
         description: 'postre esponjoso y dulce hecho con harina, azúcar, huevos, mantequilla y esencia de vainilla...',
         precio: '15 Bs. ',
         img_muffin: 'image 62.svg',
-        disponible: 'Disponible x150'
+        disponible: 'Disponible x15'
    },
    {
         title: 'Dona de mango',
