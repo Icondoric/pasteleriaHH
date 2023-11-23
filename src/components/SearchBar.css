@@ -1,0 +1,24 @@
+/* SearchBar.css */
+
+.search-bar {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 309px; /* Ancho ajustable según tus necesidades */
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.0); /* Fondo completamente transparente */
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent; /* Fondo transparente para el input */
+    color: black; /* Color del texto dentro del input */
+  }
+  
+  /* Otros estilos si es necesario */
+  
