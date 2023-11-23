@@ -1,0 +1,46 @@
+/* PanelNavegacion.css */
+
+.panel-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    background-color: #DDC08D;
+    padding: 8px;
+    border-bottom: 1px solid #555;
+    flex-direction: column; /* Cambia a dirección de columna para apilar los elementos verticalmente */
+  }
+  
+  .boton-back {
+    align-self: flex-start; /* Alinea Back en la parte superior izquierda */
+    margin-right: 16px; /* Agrega un margen a la derecha para separarlos del resto */
+  }
+  
+  .boton-muffin {
+    align-self: flex-end; /* Alinea BotonMufin en la parte superior derecha */
+    margin-left: 16px; /* Agrega un margen a la izquierda para separarlos del resto */
+  }
+  
+  .titulo-perfil,
+  .botones-navegacion,
+  .boton-cerrar-sesion {
+    margin-top: 140px; /* Espaciado entre los elementos */
+  }
+  
+  .botones-navegacion {
+    display: flex;
+    flex-direction: column; /* Muestra los botones uno debajo del otro */
+  }
+  
+  .botones-navegacion button {
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    padding: 8px; /* Ajusta según tus necesidades */
+    margin: 4px 0; /* Espaciado entre los botones */
+    color: #333; /* Color del texto */
+    cursor: pointer;
+  }
+  
+  .botones-navegacion button:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Cambia el color al hacer hover */
+  }
+  
