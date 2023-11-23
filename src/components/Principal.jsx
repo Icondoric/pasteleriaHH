@@ -6,7 +6,9 @@ import Menu from './Menu';
 import Pasteles from './Pasteles';
 import './Principal.css';
 import BotonCafe from './BotonCafe';
+import BotonSecion from '../components/moleculas/Iniciarsecion';
 import { fetchProducts } from '../assets/api';
+
 
 const Principal = () => {
   const [products, setProducts] = useState([]);
@@ -36,7 +38,9 @@ const Principal = () => {
           <Pasteles />
         )}
       </main>
-      <BotonCafe/>
+      <BotonCafe>Inicia Sesión</BotonCafe>
+      <BotonSecion/>
+      
     </div>
   );
 };

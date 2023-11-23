@@ -1,0 +1,32 @@
+
+
+.boton-Secion {
+    background-color: #EBEEF3; /* Color café */
+    color: #000000; /* Texto blanco */
+    border: 1px solid #6F4E37; /* Borde color café */
+    padding: 1px 10px; /* Ajusta según tus necesidades */
+    border-radius: 20px;
+
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    height: 44px;
+    margin: auto; /* Centrar horizontalmente */
+    display: block; /* Asegurar que el margen automático funcione */
+    text-align:center;
+    margin: auto; /* Centrar horizontalmente */
+    display: flex; /* Usar flexbox para centrar verticalmente el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    text-align: center; /* Centrar el texto dentro del botón */
+    
+  }
+  
+  .boton-Secion:hover {
+    background-color: #EBEEF3; /* Cambia el color al hacer hover */
+    
+  }
+  
+  .img.google{
+    font-size: 80.62px ;
+  }
