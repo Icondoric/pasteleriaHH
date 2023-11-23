@@ -1,8 +1,8 @@
 import React from "react";
-import BotonCafe from "../BotonCafe";
-import BotonSecion from "../moleculas/Iniciarsecion";
-import EntradaTexto from "../moleculas/EntradaTexto";
-import ConCuenta from "../moleculas/ConCuenta";
+import BotonCafe from "./BotonCafe";
+import BotonSecion from "./Iniciarsecion";
+import EntradaTexto from "./EntradaTexto";
+import ConCuenta from "./ConCuenta";
 import "./Registrarses.css";
 
 function Registrarse() {

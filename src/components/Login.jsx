@@ -1,9 +1,9 @@
 import React from "react";
-import BotonCafe from "../BotonCafe";
-import BotonSecion from "../moleculas/Iniciarsecion";
-import SinCuenta from "../moleculas/SinCuenta";
-import EntradaTexto from "../moleculas/EntradaTexto";
-import ConCuenta from "../moleculas/ConCuenta";
+import BotonCafe from "./BotonCafe";
+import BotonSecion from "./Iniciarsecion";
+import SinCuenta from "./SinCuenta";
+import EntradaTexto from "./EntradaTexto";
+import ConCuenta from "./ConCuenta";
 import "./Logins.css";
 
 function Login() {

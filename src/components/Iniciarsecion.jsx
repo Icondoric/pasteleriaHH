@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/iniciarsecions.css'; 
+import './iniciarsecions.css'; 
 
 const BotonSecion = ({ children, onClick, imagenSrc, imagenAlt }) => {
   return (
