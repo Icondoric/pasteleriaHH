@@ -1,14 +1,12 @@
 // App.js
 import React from 'react';
 import './App.css';
-import TarjetaCredito from './components/TarjetaCredito';
-import InformacionTarj from './components/InformacionTarj';
+import CategoriaPasteles from './components/CategoriaPasteles';
 
 const App = () => {
   return (
     <div className="app-container">
-      <TarjetaCredito/>
-      <InformacionTarj/>
+<CategoriaPasteles/>
     </div>
   );
 };
