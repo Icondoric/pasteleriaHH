@@ -3,7 +3,9 @@ import React from 'react';
 import LeftButton from './LeftButton';
 import RightButton from './RightButton';
 import SearchBar from './SearchBar';
-import './Navbar.css'; // Importa los estilos
+import './LeftButton.css'; // Importar estilos para LeftButton
+import './RightButton.css'; // Importar estilos para RightButton
+import './Navbar.css'; // Importar estilos para Navbar
 
 const Navbar = () => {
   return (

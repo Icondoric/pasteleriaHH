@@ -4,9 +4,8 @@ import ProductList from './ProductList';
 import Navbar from './Navbar';
 import Menu from './Menu';
 import Pasteles from './Pasteles';
-
 import './Principal.css';
-
+import BotonCafe from './BotonCafe';
 import { fetchProducts } from '../assets/api';
 
 const Principal = () => {
@@ -28,6 +27,7 @@ const Principal = () => {
   return (
     <div className="principal">
       <Navbar />
+      
       <Menu onMenuClick={handleMenuClick} />
       <main>
         {!showPasteles ? (
@@ -36,6 +36,7 @@ const Principal = () => {
           <Pasteles />
         )}
       </main>
+      <BotonCafe/>
     </div>
   );
 };

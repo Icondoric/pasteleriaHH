@@ -1,0 +1,21 @@
+/* BotonCafe.css */
+
+.boton-cafe {
+    background-color: #542B12; /* Color café */
+    color: #fff; /* Texto blanco */
+    border: 1px solid #6F4E37; /* Borde color café */
+    padding: 1px 10px; /* Ajusta según tus necesidades */
+    border-radius: 20px;
+
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    height: 44px;
+    margin: auto; /* Centrar horizontalmente */
+    display: block; /* Asegurar que el margen automático funcione */
+  }
+  
+  .boton-cafe:hover {
+    background-color: #543e2e; /* Cambia el color al hacer hover */
+  }
+  
