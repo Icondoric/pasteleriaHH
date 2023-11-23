@@ -1,0 +1,67 @@
+.TarjetaAceptada{
+    width: 216px;
+    margin-left: 15px;
+    flex-shrink: 0;
+    color: hsl(0, 0%, 0%);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.NumeroCompleto{
+    width: 283px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+    letter-spacing: -0.5px;
+}
+
+.form{
+    width: 354px;
+    height: 80px;
+}
+.form_codigoTarjeta{
+    position: relative;
+    color: #dfd3d3d5;
+    width: 354px;
+    height: 50px;
+
+}
+.form_numero{
+    width: 354px;
+    height: 45px;
+    color: #1a1414;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    margin: 3px 40px; 
+    border-radius: 10px;
+    border: 0.5px solid #000;
+    background: var(--FondoP, #F7EBDD);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.form_labelCodigo{
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 55px;
+    transform: translateY(10px);
+    transform: transform .5s, color .3s;
+    margin: 15px; 
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.form_numero:focus + .form_labelCodigo,
+.form_numero:not(:placeholder-shown)+.form_labelCodigo{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: top right;
+    --color: #a35e0e;
+}
