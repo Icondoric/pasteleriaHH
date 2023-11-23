@@ -1,8 +1,8 @@
 // App.js
 import React from 'react';
-import CategoriaPasteles from './components/CategoriaPasteles'
+
+import PanelNavegacion from './components/PanelNavegacion';
 import './App.css';
-import { pastel } from './assets/pastelesAPI';
 
 const App = () => {
   return (
@@ -10,8 +10,6 @@ const App = () => {
             {/* <CategoriaMuffins infoMuffins={infoMuffins}/> */}
       <CategoriaPasteles pastel={pastel}/>
     </div>
-    
-    
   );
 };
 
