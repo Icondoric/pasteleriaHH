@@ -1,0 +1,9 @@
+.añadir {
+  display: flex;
+  width: 30.273px;
+  height: 20.642px;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}

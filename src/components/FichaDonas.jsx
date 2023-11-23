@@ -1,7 +1,7 @@
 import React from "react";
-import { infodonas } from "../assets/donasAPI";
+
 import "./FichaDonas.css";
-import botonVerde from "./botonVerde";
+import Verde from "./Verde";
 function FichaDonas(props) {
   const infodonas = props.infodonas;
   return (
@@ -17,11 +17,15 @@ function FichaDonas(props) {
           </div>
         </div>
 
+        
+        <div className="precios_superior">
         <div className="precios">
           {infodonas.precio}
           <p className="disp">{infodonas.disponible}</p>
+          
         </div>
-        <botonVerde/>
+        <Verde/>
+        </div>
       </div>
     </article>
   );
