@@ -46,7 +46,7 @@ const Principal = () => {
       <BotonCafe>Inicia Sesión</BotonCafe>
       <BotonSecion/>
       <SinCuenta/>
-      <EntradaTexto Texto="dilan puto" />
+      <EntradaTexto Texto="dil" />
       <ConCuenta/>
       
       
