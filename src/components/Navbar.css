@@ -8,7 +8,7 @@
   .left-button,
   .right-button {
     position: absolute;
-    top: 5px;
+    top: 15px;
   }
   
   .left-button {
@@ -16,12 +16,12 @@
   }
   
   .right-button {
-    right: 0;
+    right: 5px;
   }
   
   .search-bar {
     position: absolute;
-    top: 10px;
+    top: 60px;
     left: 50%;
     transform: translateX(-50%);
   }

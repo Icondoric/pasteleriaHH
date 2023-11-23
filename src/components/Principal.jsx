@@ -2,24 +2,39 @@
 import React, { useState, useEffect } from 'react';
 import ProductList from './ProductList';
 import Navbar from './Navbar';
-import './Principal.css'; // Importa los estilos
+import Menu from './Menu';
+import Pasteles from './Pasteles';
+
+import './Principal.css';
 
 import { fetchProducts } from '../assets/api';
 
 const Principal = () => {
   const [products, setProducts] = useState([]);
+  const [showPasteles, setShowPasteles] = useState(false);
 
   useEffect(() => {
-    // Llamada a la API para obtener la lista de productos
     fetchProducts().then((data) => setProducts(data));
   }, []);
 
+  const handleMenuClick = (menuItem) => {
+    if (menuItem === 'pasteles') {
+      setShowPasteles(true);
+    } else {
+      setShowPasteles(false);
+    }
+  };
+
   return (
     <div className="principal">
-      {/* Elimina la referencia al componente Header */}
       <Navbar />
+      <Menu onMenuClick={handleMenuClick} />
       <main>
-        <ProductList products={products} />
+        {!showPasteles ? (
+          <ProductList products={products} />
+        ) : (
+          <Pasteles />
+        )}
       </main>
     </div>
   );
