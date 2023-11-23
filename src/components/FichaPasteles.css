@@ -16,6 +16,7 @@
   }
   .descripcion {
     display: flex;
+    gap: 20px;
   }
   .descripcion_texto {
     display: flex;
@@ -24,13 +25,14 @@
   }
   .precios {
     display: flex;
-    gap: 140px;
+    gap: 100px;
     color: #000;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     align-items: flex-end;
+    width: 300px;
   }
   .dona_nombre {
     margin: 0;
@@ -44,7 +46,13 @@
   }
   
   .precios_superior{
+      width: 350px;
       display: flex;
-      gap: 20px;
+      gap: 10px;
       align-items: flex-end;
+  }
+  .imagen{
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
   }

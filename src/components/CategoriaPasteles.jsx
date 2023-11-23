@@ -1,36 +1,24 @@
-// Principal.js
-import React, { useState, useEffect } from "react";
-import "./CategoriaPasteles.css";
-/*import { fetchProducts } from "../assets/api";*/
-import HeaderCategorias from "./HeaderCategorias";
-import FichaPasteles from "./FichaPasteles";
+import React, { useEffect, useState } from 'react'
+import HeaderCategorias from './HeaderCategorias'
+import FichaPasteles from './FichaPasteles'
 
-const CategoriaPasteles = (props) => {
-  const pastel = props.pastel;
+const CategoriaPasteles=()=>{
+  const[Pasteles,SetPasteles]=useState([]);
+  useEffect(()=>{
+    const ObtenerDatos=async()=>{
+      const res =await fetch('https://6557a0e8bd4bcef8b612fbf2.mockapi.io/aoi/v1/Pasteles_2')
+      const datos =await res.json()
+      SetPasteles([...datos])
+    }
+    ObtenerDatos()
+  },[])
   return (
     <div className="principal">
-      <HeaderCategorias />
-      {pastel.map((info) => {
-        return <FichaPasteles pastel={info} />;
+      <HeaderCategorias/>
+      {Pasteles.map((info) => {
+        return <FichaPasteles Pasteles={info} />;
       })}
     </div>
-  );
-};
-
-export default CategoriaPasteles;
-
-/*const [products, setProducts] = useState([]);
-  const [showPasteles, setShowPasteles] = useState(false);
-
-  useEffect(() => {
-    fetchProducts().then((data) => setProducts(data));
-  }, []);
-
-  const handleMenuClick = (menuItem) => {
-    if (menuItem === 'pasteles') {
-      setShowPasteles(true);
-    } else {
-      setShowPasteles(false);
-    }
-  };
-*/
+  )
+}
+export default CategoriaPasteles
