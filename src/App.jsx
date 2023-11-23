@@ -1,13 +1,14 @@
 // App.js
 import React from 'react';
+import CategoriaPasteles from './components/CategoriaPasteles'
 import './App.css';
-import CategoriaMuffins from './components/CategoriaMuffins';
-import { infoMuffins } from './assets/muffinsApi';
+import { pastel } from './assets/pastelesAPI';
 
 const App = () => {
   return (
     <div className="app-container">
-      <CategoriaMuffins infoMuffins={infoMuffins}/>
+            {/* <CategoriaMuffins infoMuffins={infoMuffins}/> */}
+      <CategoriaPasteles pastel={pastel}/>
     </div>
     
     
