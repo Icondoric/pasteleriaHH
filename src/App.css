@@ -15,7 +15,7 @@ body {
   border: 16px solid #000; /* Simular el marco del iPhone */
   border-radius: 16px; /* Bordes redondeados */
   position: relative;
-  background-color: #f8f8f8; /* Color de fondo del "teléfono" */
+  background-color: #f7ebdd; /* Color de fondo del "teléfono" */
   display: flex;
   flex-direction: column; /* Ajusta el contenido en una columna */
 }

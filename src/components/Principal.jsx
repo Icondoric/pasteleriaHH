@@ -8,6 +8,10 @@ import './Principal.css';
 import BotonCafe from './BotonCafe';
 import BotonSecion from '../components/moleculas/Iniciarsecion';
 import { fetchProducts } from '../assets/api';
+import SinCuenta from './moleculas/SinCuenta';
+import EntradaTexto from './moleculas/EntradaTexto';
+import ConCuenta from './moleculas/ConCuenta';
+
 
 
 const Principal = () => {
@@ -38,8 +42,15 @@ const Principal = () => {
           <Pasteles />
         )}
       </main>
+      
       <BotonCafe>Inicia Sesión</BotonCafe>
       <BotonSecion/>
+      <SinCuenta/>
+      <EntradaTexto Texto="dilan puto" />
+      <ConCuenta/>
+      
+      
+     
       
     </div>
   );

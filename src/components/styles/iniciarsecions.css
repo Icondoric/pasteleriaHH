@@ -11,10 +11,10 @@
     font-weight: bold;
     width: 280px;
     height: 44px;
-    margin: auto; /* Centrar horizontalmente */
+    margin: auto; 
+    margin-top: 40px;/* Centrar horizontalmente */
     display: block; /* Asegurar que el margen automático funcione */
     text-align:center;
-    margin: auto; /* Centrar horizontalmente */
     display: flex; /* Usar flexbox para centrar verticalmente el contenido */
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
