@@ -1,0 +1,50 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .conteiner {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    height: 135px;
+    width: 370px;
+  }
+  .disponibilidad {
+    color: rgba(0, 0, 0, 0.25);
+  }
+  .descripcion {
+    display: flex;
+  }
+  .descripcion_texto {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .precios {
+    display: flex;
+    gap: 140px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: flex-end;
+  }
+  .dona_nombre {
+    margin: 0;
+    border-bottom: 2px #000 solid;
+  }
+  p {
+    margin: 0px;
+  }
+  .disp {
+    font-size: 16px;
+  }
+  
+  .precios_superior{
+      display: flex;
+      gap: 20px;
+      align-items: flex-end;
+  }

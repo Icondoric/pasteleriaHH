@@ -1,13 +1,13 @@
 // App.js
 import React from 'react';
-import CategoriaDonas from './components/CategoriaDonas'
 import './App.css';
-import { infodonas } from './assets/donasAPI';
+import CategoriaMuffins from './components/CategoriaMuffins';
+import { infoMuffins } from './assets/muffinsApi';
 
 const App = () => {
   return (
     <div className="app-container">
-      <CategoriaDonas infodonas={infodonas}/>
+      <CategoriaMuffins infoMuffins={infoMuffins}/>
     </div>
   );
 };
