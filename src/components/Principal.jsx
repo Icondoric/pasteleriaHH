@@ -8,9 +8,7 @@ import './Principal.css';
 import BotonCafe from './BotonCafe';
 import BotonSecion from './Iniciarsecion';
 import { fetchProducts } from '../assets/api';
-import SinCuenta from './SinCuenta';
-import EntradaTexto from './EntradaTexto';
-import ConCuenta from './ConCuenta';
+
 
 
 
