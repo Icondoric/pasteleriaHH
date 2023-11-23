@@ -1,13 +1,13 @@
 // App.js
 import React from 'react';
-import CategoriaDonas from './components/CategoriaDonas'
+import CategoriaPasteles from './components/CategoriaPasteles'
 import './App.css';
-import { infodonas } from './assets/donasAPI';
+import { pastel } from './assets/pastelesAPI';
 
 const App = () => {
   return (
     <div className="app-container">
-      <CategoriaDonas infodonas={infodonas}/>
+      <CategoriaPasteles pastel={pastel}/>
     </div>
   );
 };
