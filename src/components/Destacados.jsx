@@ -1,10 +1,19 @@
 import React from 'react';
-    const Destacados = () => {
-  return (
-    <div>
-      <h2>¡Aqui deberia entrar la seccion de Destacados!</h2>
-    </div>
-  );
-};
+import './Destacados.css';
+import FichaDestacados from './FichaDestacados';
 
-export default Destacados;
+const Destacados = (props) => {
+  const postredestacado = props.postredestacado;
+      
+  return (
+    <div className="principal-destacados">
+      {postredestacado.map((info) => {
+        return <FichaDestacados postredestacado={info} />;
+      })}
+    </div>
+      );
+    };
+      
+  export default Destacados;
+      
+      
