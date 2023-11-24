@@ -1,26 +1,26 @@
 import React from "react";
 import "./FichaPasteles.css";
 import Verde from "./Verde";
-function FichaPasteles(props) {
-  const pastel = props.pastel;
+function FichaDestacados(props) {
+  const postredestacado = props.postredestacado;
   return (
     <article>
       <div className="contenedor">
         <div className="descripcion">
           <div className="descripcion_texto">
-            <h3 className="dona_nombre">{pastel.titulo}</h3>
-            <p>{pastel.descripcion}</p>
+            <h3 className="dona_nombre">{postredestacado.titulo}</h3>
+            <p>{postredestacado.descripcion}</p>
           </div>
           <div>
-            <img src={pastel.imgUrl}/>
+            <img src={postredestacado.imgUrl}/>
           </div>
         </div>
 
         
         <div className="precios_superior">
         <div className="precios">
-          {pastel.precio}
-          <p className="disp">{pastel.disponible}</p>
+          {postredestacado.precio}
+          <p className="disp">{postredestacado.disponible}</p>
           
         </div>
         <Verde/>
@@ -30,4 +30,4 @@ function FichaPasteles(props) {
   );
 }
 
-export default FichaPasteles;
+export default FichaDestacados;
