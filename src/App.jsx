@@ -4,9 +4,9 @@ import {Routes, Route, Outlet, Link} from 'react-router-dom'
 import PanelNavegacion from './components/PanelNavegacion'
 import './App.css'
 import Login from './components/template/Login'
-import Registrarse from './components/template/Registrarse'
-import DireccDelibery from './components/template/DireccDelibery'
+import Menu from './components/Menu'
 import Principal from './components/Principal'
+
 
 
 const App = () => {
@@ -15,6 +15,10 @@ const App = () => {
     <Routes>
         <Route path='/' element={<Login />}/>
         <Route path='/principal' element = {<Principal />}/>
+        <Route path='menu-pasteles' element = {<Menu />} />
+        <Route path='menu-muffins' element = {<Menu />} />
+        <Route path='menu-donas' element = {<Menu />} />
+        <Route path='menu-panes' element = {<Menu />} />
     </Routes> 
     </div>
   );
