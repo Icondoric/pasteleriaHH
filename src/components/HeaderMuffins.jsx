@@ -2,8 +2,8 @@ import React from "react";
 import "./LeftButton.css"; // Importar estilos para LeftButton
 import "./RightButton.css"; // Importar estilos para RightButton
 import "./HeaderCategorias.css"; // Importar estilos para Navbar
-import Backbutton from "./BackButton";
-import BotonMufin from "./BotonMufin";
+import Backbutton from "./Atomos/BackButton";
+import BotonMufin from "./Atomos/BotonMufin";
 
 const HeaderMuffins = () => {
   return (
