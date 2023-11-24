@@ -11,10 +11,9 @@
     height: 135px;
     width: 370px;
   }
-  .disp {
-    
-    color: rgba(0, 0, 0, 0.25);
-    font-size: 16px;
+  div .disp {
+    color: red;
+    font-size: 13px;
   }
   .descripcion {
     display: flex;
