@@ -1,12 +1,12 @@
 export const infodonas = [
-    {
-        titulo: 'Dona de vainilla',
-        descripcion: 'Postre esponjoso y dulce hecho con harina, azúcar, huevos, mantequilla y esencia de vainilla...',
-        precio: '10 Bs. ',
-        img_dona: '/312dona 1.svg',
-        disponible: 'Disponible x15'
-   },
-   {
+{
+    titulo: 'Dona de vainilla',
+    descripcion: 'Postre esponjoso y dulce hecho con harina, azúcar, huevos, mantequilla y esencia de vainilla...',
+    precio: '10 Bs. ',
+    img_dona: '/312dona 1.svg',
+    disponible: 'Disponible x15'
+},
+{
     titulo: 'Dona de mango',
     descripcion: 'Una dona esponjosa y suave, glaseada con un delicado y cremoso glaseado de mango...',
     precio: '10 Bs. ',
