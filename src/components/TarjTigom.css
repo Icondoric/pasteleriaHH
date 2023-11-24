@@ -1,17 +1,25 @@
-.FechaTarjetaPago{
+.cajaLlenadoDatos{
+    display: flex;
+    justify-content: space-around;
+}
+.CodigoPais{
+    display: flex;
+    flex-direction: column;
+}
+.CodPais{
     color: #000;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; 
+    line-height: 20px; /* 133.333% */
     letter-spacing: -0.5px;
     padding: 1px 10px;
 }
-.form_fechaVencimiento{
+.form_Codi-Pais{
     position: relative;
     color: #dfd3d3d5;
 }
-.form_inputFecha{
+.form_inputCodigoP{
     width: 154px;
     height: 45px;
     color: #1a1414;
@@ -23,9 +31,8 @@
     border-radius: 10px;
     border: 0.5px solid #000;
     background: var(--FondoP, #F7EBDD);
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
-.form_labelFecha{
+.form_labelCodigoP{
     color: var(--color);
     cursor: pointer;
     position: absolute;
@@ -34,16 +41,23 @@
     transform: translateY(10px);
     transform: transform .5s, color .3s;
     margin: 15px; 
+
 }
-.form_inputFecha:focus + .form_labelFecha,
-.form_inputFecha:not(:placeholder-shown)+.form_labelFecha{
+.form_inputCodigoP:focus + .form_labelCodigoP,
+.form_inputCodigoP:not(:placeholder-shown)+.form_labelCodigoP{
     transform: translateY(-12px) scale(.7);
     transform-origin: top right;
     --color: #a35e0e;
 }
 
-.CVV{
+
+.CajaCelularT{
+    display: flex;
+    flex-direction: column;
+}
+.CelularT{
     color: #000;
+    /*text-align: left;*/
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -51,11 +65,11 @@
     letter-spacing: -0.5px;
     padding: 1px 10px;
 }
-.form_Cvv{
+.formCelularT{
     position: relative;
     color: #dfd3d3d5;
 }
-.form_inputCvv{
+.form_inputCelularT{
     width: 154px;
     height: 45px;
     color: #1a1414;
@@ -67,8 +81,9 @@
     border-radius: 10px;
     border: 0.5px solid #000;
     background: var(--FondoP, #F7EBDD);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
-.form_labelCvv{
+.form_labelCelularT{
     color: var(--color);
     cursor: pointer;
     position: absolute;
@@ -78,46 +93,25 @@
     transform: transform .5s, color .3s;
     margin: 15px; 
 }
-.form_inputCvv:focus + .form_labelCvv,
-.form_inputCvv:not(:placeholder-shown)+.form_labelCvv{
+.form_inputCelularT:focus + .form_labelCelularT,
+.form_inputCelularT:not(:placeholder-shown)+.form_labelCelularT{
     transform: translateY(-12px) scale(.7);
     transform-origin: top right;
     --color: #a35e0e;
 }
 
-.cajaLlenadoPago{
-    display: flex;
-    justify-content: space-around;
+.cajaPIN{
+    margin-top: 20px;
 }
 
-.FechaPago{
-    display: flex;
-    flex-direction: column;
-}
-
-.CajaCvv{
-    display: flex;
-    flex-direction: column;
-}
-
-.NumeroCompleto{
-    width: 283px;
-    height: 24px;
-    flex-shrink: 0;
-}
-
-.form{
-    width: 354px;
-    height: 80px;
-}
-.form_NomPropietario{
+.form_Contraseña{
     position: relative;
     color: #dfd3d3d5;
     width: 354px;
     height: 50px;
 
 }
-.form_inputNompropietario{
+.form_inputContraseña{
     width: 354px;
     height: 45px;
     color: #1a1414;
@@ -130,7 +124,7 @@
     border: 0.5px solid #000;
     background: var(--FondoP, #F7EBDD);
 }
-.form_labelNomPropietario{
+.form_labelContraseña{
     color: var(--color);
     cursor: pointer;
     position: absolute;
@@ -140,8 +134,8 @@
     transform: transform .5s, color .3s;
     margin: 15px; 
 }
-.form_inputNompropietario:focus + .form_labelNomPropietario,
-.form_inputNompropietario:not(:placeholder-shown)+.form_labelNomPropietario{
+.form_inputContraseña:focus + .form_labelContraseña,
+.form_inputContraseña:not(:placeholder-shown)+.form_labelContraseña{
     transform: translateY(-12px) scale(.7);
     transform-origin: top right;
     --color: #a35e0e;
