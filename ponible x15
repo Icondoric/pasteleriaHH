@@ -1,0 +1,342 @@
+[33mcommit 4bf5a2ec2195c1a5e0a4019c6e00ae515193c5bb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/quesito[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mquesito[m[33m)[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 08:40:40 2023 -0400
+
+    Cambiando css para mostrar letras rojas y acomodar
+
+[33mcommit 210c8f7d7914e661826544dd66a598eb386c12a8[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:45:45 2023 -0400
+
+    Integrando Seccion Destacados y su API a Principal
+
+[33mcommit fa51d76c71cb2ee12f7567156f6d48a825bb4218[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:44:58 2023 -0400
+
+    Creando Rutas en el menu
+
+[33mcommit 9f9f302e2b30fab450dff6bc2ffb43f194c43658[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:44:20 2023 -0400
+
+    Editando Imports e integrando los links correspondientes
+
+[33mcommit 99e78ec69db1b5cae7783b68e17b309fee15da49[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:43:56 2023 -0400
+
+    Eliminando HeaderMuffin para reemplazar por HdCatg
+
+[33mcommit 20f3056b08e793f0c8d8ad4ad863375bb9a07ba7[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:43:24 2023 -0400
+
+    Uniendo etiqueta disp, que quedaba de mas
+
+[33mcommit 9c5e0b3807f776b195b512c9e9a73e765fc840e0[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:43:05 2023 -0400
+
+    Creando FichaDestacados para mostrarlo con su API
+
+[33mcommit ba933d6c739dcf054242f2394aa79b58208b29cf[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:40:26 2023 -0400
+
+    Desarrollando seccion de Destacados
+
+[33mcommit 78f7c65225fd7c604138106b4383fb27eb447c21[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:39:58 2023 -0400
+
+    Integrando el css de Destacados
+
+[33mcommit d06be70ca81956dd8f95aebba137798abb13a900[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:39:38 2023 -0400
+
+    Editando imports e integrando un unico header
+
+[33mcommit 657ad439d2925db961d2cb90305cedff5a0e6f1f[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:38:50 2023 -0400
+
+    Creando la API destacados
+
+[33mcommit f1f75d0ec9e6f95ae788e480a69ae8201ae7fe60[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:38:02 2023 -0400
+
+    Editando contenido de las apis
+
+[33mcommit 3cb78d77354ddea07df78587a36cbba3b1066703[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 05:37:31 2023 -0400
+
+    Editando imports e integrando rutas de navegacion
+
+[33mcommit c6901258d0b65897be1855dfd0d747fd184f6146[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 02:17:15 2023 -0400
+
+    Integrando Import y Links
+
+[33mcommit ac778557a047a3f6359d1f9b9c4126e74b287ba0[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 02:16:46 2023 -0400
+
+    Integrando rutas e imports
+
+[33mcommit d58019c8efefcd0a3f1d71ac8b2f9b4777c8573e[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:58:57 2023 -0400
+
+    Integrando solo lo correspondiente segun figma
+
+[33mcommit 452b3a023e8a9b5305fdd42c86248223032c0d3b[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:58:38 2023 -0400
+
+    Eliminando contenido porque no se parece al figma
+
+[33mcommit 7e0af3d65b75b47b7d6d9f393d3ec0090b5cff45[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:55:06 2023 -0400
+
+    Integrando los Links para el react-route-dom
+
+[33mcommit b4dddf4aaa20aff0ce1a7e2995eb8b52feb01b98[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:53:14 2023 -0400
+
+    Eliminando imports, estructuras inservibles.
+
+[33mcommit 2fdcce15f8395e4b171d51412f3f50b927751b60[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:52:13 2023 -0400
+
+    Actualizando rutas de import correspondientes
+
+[33mcommit 7ecb86a4fdf51861d5ef256b30dbe6931c3e4332[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:51:38 2023 -0400
+
+    Actualizando la ruta del css respectivo
+
+[33mcommit d11c66a5fe1d1011502b8e226a6366b16a0adb3d[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:51:24 2023 -0400
+
+    Cambiando la estruc. de Destacados, antes pasteles
+
+[33mcommit cdfa151d00c34d666ec546d0f0af1ee1d87d7f18[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:48:02 2023 -0400
+
+    Eliminando Pasteles para reemplazarlo por destac.
+
+[33mcommit 5e4e4a00d99bfdba565c5b8f6bb4bf38bffaf3f0[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:47:04 2023 -0400
+
+    Union del BrowserRouter en el main.jsx
+
+[33mcommit aedd8cbc842819ad158c84db3e0ed5a2dbb2fc6a[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:46:39 2023 -0400
+
+    Cambiando los imports para el uso de reactroutedom
+
+[33mcommit 34f3883fc447c7aa722f35feaf5467818433166e[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:46:01 2023 -0400
+
+    npm install para activar el react-route-dom
+
+[33mcommit 196f5256d1594feb076f341dc82ba6103a8b4e3d[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Fri Nov 24 01:45:35 2023 -0400
+
+    Eliminando ProductsCard y list porque no sirven
+
+[33mcommit ff2355925bf2e55cc001ba100b33057a75bdc896[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Thu Nov 23 23:40:12 2023 -0400
+
+    realizando el 'npm install react-router-dom'
+
+[33mcommit d4f0ce70ad8a329cebed47d09a8f69fc3ec59455[m
+Author: avillegasa <andres.villegasa19@gmail.com>
+Date:   Thu Nov 23 13:35:50 2023 -0400
+
+    Adding react to extends section inside .cjs
+
+[33mcommit 60e2646ed93139afa3985d33b69093a2267221a6[m
+Merge: 66fa25a d89349a
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 21:14:00 2023 -0400
+
+    commitfinalxahoraxd
+
+[33mcommit d89349ad71a40063a9d624e71f6fe7b2b39ff6e7[m[33m ([m[1;32mMetodoPago[m[33m)[m
+Merge: 8412025 6c14f35
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 21:10:58 2023 -0400
+
+    mamamia
+
+[33mcommit 66fa25a3502beacb68a26d712e799c4d958c2a00[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 21:07:50 2023 -0400
+
+    hice muchas cosas xd
+
+[33mcommit 6c14f352e16bb2f2e2053f411332a228c9709ce5[m[33m ([m[1;31morigin/MetodoPago[m[33m)[m
+Author: Andrew Segales <andysejas444@gmail.com>
+Date:   Thu Nov 23 21:02:53 2023 -0400
+
+    rodolfo
+
+[33mcommit b37a8464e5a8bc4578e0bee1172e19d86c47d1f2[m[33m ([m[1;32mrojas[m[33m)[m
+Merge: c039519 14b2350
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 12:01:15 2023 -0400
+
+    commit jueves final
+
+[33mcommit 14b2350249d314579b01d054ad66bd77f66a6d1e[m[33m ([m[1;31morigin/Icondoric[m[33m, [m[1;32mIcondoric[m[33m)[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 11:59:13 2023 -0400
+
+    agregue panelnav
+
+[33mcommit c039519df6c18134216638f342897abfdc127c23[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 10:41:53 2023 -0400
+
+    commit icondoric rojas cameo vega rojas segales gha
+
+[33mcommit 6f60847ff3411e13602ba3b8d00ba29789db547e[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 10:36:31 2023 -0400
+
+    commit icondoric rojas cameo vega rojas segales
+
+[33mcommit 84120256acb7d9437b348ae378262f90bb089a83[m
+Merge: f425f2e 8beba27
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 10:32:10 2023 -0400
+
+    soy segales
+
+[33mcommit f425f2e38100988f3f70da4d15167fad9600ee9b[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 10:26:51 2023 -0400
+
+    commit icondoric rojas cameo vega rojas
+
+[33mcommit 0eb08a40086203f50085a3872e6cb282c12e9fe0[m[33m ([m[1;32mCategoriaPasteles[m[33m)[m
+Merge: bb4607f 0db187c
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 10:21:54 2023 -0400
+
+    soycameo
+
+[33mcommit bb4607f3c618cee2cfe6c27f5fccf2d3c60524e2[m[33m ([m[1;32mCategoriaMuffins[m[33m)[m
+Merge: 96b2f2d 3e2924e
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 10:12:15 2023 -0400
+
+    Merge branch 'CategoriaMuffins' of https://github.com/Icondoric/pasteleriaHH into CategoriaMuffins
+
+[33mcommit 96b2f2d31fe88d1c027e26e918007a38e2e016d4[m[33m ([m[1;32mCategoriaDonas[m[33m)[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 10:08:32 2023 -0400
+
+    soy bugha
+
+[33mcommit 060f498e97c51a4503b6e122b2a4c3497ddef71f[m[33m ([m[1;31morigin/CategoriaDonas[m[33m)[m
+Merge: f73d0b5 859ab64
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 10:02:51 2023 -0400
+
+    soy vega
+
+[33mcommit f73d0b59452613ffc67611c64c5283a5a8396b68[m
+Author: Jose-Rojas-Jr <jr.joss1999@gmail.com>
+Date:   Thu Nov 23 09:48:00 2023 -0400
+
+    correccionf2
+
+[33mcommit 51cee6e612970433c9fb7ebf02f064aac72a0804[m
+Author: Jose-Rojas-Jr <jr.joss1999@gmail.com>
+Date:   Thu Nov 23 05:31:12 2023 -0400
+
+    login creado
+
+[33mcommit 3e2924e77be2e76fec56fba879fc4c2eabc63078[m[33m ([m[1;31morigin/CategoriaMuffins[m[33m)[m
+Author: KeiviVeizan <kveizanp@est.emi.edu.bo>
+Date:   Thu Nov 23 05:14:14 2023 -0400
+
+    Acabdo añia supremo
+
+[33mcommit 0db187c71c5eb3be412131be30a4bf334d4096eb[m[33m ([m[1;31morigin/CategoriaPasteles[m[33m)[m
+Author: OscarCameo <cameotapia@gmail.com>
+Date:   Thu Nov 23 05:13:28 2023 -0400
+
+    Primer commit
+
+[33mcommit 8beba27f3fee363c274e391bea84e99db64806f2[m
+Author: Andrew Segales <andysejas444@gmail.com>
+Date:   Thu Nov 23 05:07:15 2023 -0400
+
+    PagoTarjetas
+
+[33mcommit f8a9788427fb02377c3310d95271ba509075e6f7[m
+Author: KeiviVeizan <kveizanp@est.emi.edu.bo>
+Date:   Thu Nov 23 04:47:45 2023 -0400
+
+    CheschoMUffins
+
+[33mcommit 859ab642ce833be2447fb47dc30ced8fca9ba187[m
+Author: Vega <kikivega2002@gmail.com>
+Date:   Thu Nov 23 04:09:27 2023 -0400
+
+    maldito boton verde
+
+[33mcommit fc002e1aaa6130c6c28c173a00e3fcac7e1cc245[m
+Author: Vega <kikivega2002@gmail.com>
+Date:   Thu Nov 23 03:51:47 2023 -0400
+
+    avanzamos mucho y es el primer comit que insanos no?
+
+[33mcommit 22d15ed482ac34e9264df2cc0e0736e4f4d89a23[m
+Author: Jose-Rojas-Jr <jr.joss1999@gmail.com>
+Date:   Thu Nov 23 01:57:57 2023 -0400
+
+    primeras moleculas
+
+[33mcommit 01f632854bb5498cada21ef159500ebdfb8fdba2[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Thu Nov 23 00:13:48 2023 -0400
+
+    arreglos
+
+[33mcommit 6d87e6e3c3e3ad4f9f6720c55bc2e68f3552be33[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Wed Nov 22 22:25:24 2023 -0400
+
+    añadi comp menu
+
+[33mcommit 190d4c1b88bf8d24e95a0843bf2d3fe7def1469e[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Wed Nov 22 20:26:29 2023 -0400
+
+    creacion de componenetes, apis, interfaz
+
+[33mcommit 1c1b188cf27763c037cbf095b0930d0f44f43a5c[m
+Author: Icondoric <iconhu.icc@gmail.com>
+Date:   Wed Nov 22 19:11:25 2023 -0400
+
+    primer commit
