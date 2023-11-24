@@ -12,7 +12,9 @@
     width: 370px;
   }
   .disp {
+    
     color: rgba(0, 0, 0, 0.25);
+    font-size: 16px;
   }
   .descripcion {
     display: flex;
@@ -31,6 +33,7 @@
     font-weight: 700;
     line-height: normal;
     align-items: flex-end;
+    width: 80%;
   }
   .dona_nombre {
     margin: 0;
@@ -38,9 +41,6 @@
   }
   p {
     margin: 0px;
-  }
-  .disp {
-    font-size: 16px;
   }
   
   .precios_superior{
