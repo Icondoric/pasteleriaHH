@@ -6,6 +6,7 @@ function FichaPasteles(props) {
   const pastel = props.pastel;
   return (
     <article>
+      <button className="button-style">
       <div className="contenedor">
         <div className="descripcion">
           <div className="descripcion_texto">
@@ -27,6 +28,7 @@ function FichaPasteles(props) {
         <Verde/>
         </div>
       </div>
+      </button>
     </article>
   );
 }

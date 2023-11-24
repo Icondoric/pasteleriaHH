@@ -1,5 +1,5 @@
 // Principal.js
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./CategoriaPasteles.css";
 /*import { fetchProducts } from "../assets/api";*/
 import HeaderCategorias from "./HeaderCategorias";
@@ -7,9 +7,10 @@ import FichaPasteles from "./FichaPasteles";
 
 const CategoriaPasteles = (props) => {
   const pastel = props.pastel;
+  const nuevoTitulo="Pasteles";
   return (
     <div className="principal">
-      <HeaderCategorias />
+      <HeaderCategorias titulo={nuevoTitulo}/>
       {pastel.map((info) => {
         return <FichaPasteles pastel={info} />;
       })}
@@ -18,19 +19,3 @@ const CategoriaPasteles = (props) => {
 };
 
 export default CategoriaPasteles;
-
-/*const [products, setProducts] = useState([]);
-  const [showPasteles, setShowPasteles] = useState(false);
-
-  useEffect(() => {
-    fetchProducts().then((data) => setProducts(data));
-  }, []);
-
-  const handleMenuClick = (menuItem) => {
-    if (menuItem === 'pasteles') {
-      setShowPasteles(true);
-    } else {
-      setShowPasteles(false);
-    }
-  };
-*/
