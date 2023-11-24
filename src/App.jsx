@@ -8,7 +8,7 @@ import PresentaciondelProducto from './components/PresenaciondelProducto';
 const App = () => {
   return (
     <div className="app-container">
-      <PresentaciondelProducto/>
+      <CategoriaPasteles pastel={pastel}/>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 export const pastel = [
     {
-      titulo: "Pastek de vainilla",
+      titulo: "Pastel de vainilla",
       descripcion:"Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.",
       imgUrl: "/Vainilla.svg",
       precio:"115 Bs.",

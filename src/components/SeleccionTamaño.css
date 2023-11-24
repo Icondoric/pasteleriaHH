@@ -1,0 +1,21 @@
+.contendor-seleccion {
+  width: 430px;
+  height: 974px;
+}
+h2 {
+  color: black;
+}
+.orden-buttons{
+    display: flex;
+}
+.button-tamaño {
+  width: 140px;
+  height: 28px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.seleccionado {
+    background-color: #935614; /* Color café */
+    color: #fff; /* Color de texto en contraste */
+    /* Otros estilos que desees aplicar cuando está seleccionado */
+  }
