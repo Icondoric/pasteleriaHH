@@ -1,0 +1,22 @@
+* {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+.contenedor-producto {
+  display: flex;
+  width: 316px;
+  height: 420px;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px;
+}
+.imagen {
+  width: 315px;
+  height: 270px;
+}

@@ -1,13 +1,10 @@
 // Navbar.js
 import React from "react";
-import "./styles/LeftButton.css"
-import "./styles/RightButton.css"
-import "./HeaderCategorias.css"
-import Backbutton from "./BackButton"
-import BotonMufin from "./BotonMufin"
-import {Link} from 'react-router-dom'
+import "./HeaderCategorias.css"; // Importar estilos para Navbar
+import Backbutton from "./BackButton";
+import BotonMufin from "./BotonMufin";
 
-const HeaderCategorias = ({children}) => {
+const HeaderCategorias = (props) => {
   return (
     <section>
       <div className="navbar">
@@ -18,7 +15,7 @@ const HeaderCategorias = ({children}) => {
         <BotonMufin />
       </div>
       <div>
-        <h2 className="titulo">{children}</h2>
+        <h2 className="titulo">{props.titulo}</h2>
       </div>
     </section>
   );

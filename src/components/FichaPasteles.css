@@ -6,7 +6,7 @@
     color: black;
     background-color: white;
     border-radius: 20px;
-    padding: 20px;
+    padding:0px;
     margin: 10px;
     height: 135px;
     width: 370px;
@@ -24,8 +24,10 @@
     margin: 0px;
   }
   .precios {
+    width: 300px;
+    height: 24px;
     display: flex;
-    gap: 140px;
+    gap: 80px;
     color: #000;
     font-size: 20px;
     font-style: normal;
@@ -40,10 +42,28 @@
   }
   p {
     margin: 0px;
+
+  }
+  .disp {
+    font-size: 16px;
+    width: 125px;
   }
   
   .precios_superior{
       display: flex;
       gap: 20px;
+      width: 350px;
+      height: 25px;
       align-items: flex-end;
   }
+.button-style{
+  padding: 20px;
+  margin: 30px;
+  height: 150px;
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+}
