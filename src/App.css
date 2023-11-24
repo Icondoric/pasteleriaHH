@@ -1,3 +1,4 @@
+/* App.css */
 body {
   margin: 0;
   padding: 0;
@@ -6,50 +7,19 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+  overflow: hidden; /* Evitar desbordamientos */
 }
 
 .app-container {
   width: 430px; /* Ancho del iPhone 14 */
-  height: 939px; /* Altura del iPhone 14 */
-  overflow: hidden; /* Evitar desbordamientos */
+  height: 100vh; /* Usar 100% de la altura de la ventana */
   border: 16px solid #000; /* Simular el marco del iPhone */
   border-radius: 16px; /* Bordes redondeados */
   position: relative;
   background-color: #f7ebdd; /* Color de fondo del "teléfono" */
   display: flex;
   flex-direction: column; /* Ajusta el contenido en una columna */
+  overflow-y: auto; /* Permitir el desplazamiento dentro del contenedor */
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 8px;
-}
-
-main {
-  overflow-y: auto; /* Permitir el desplazamiento dentro del contenido principal */
-  padding: 16px;
-  flex-grow: 1; /* Ocupa el espacio restante */
-}
-
-.product-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.product-card {
-  width: calc(33.33% - 16px);
-  box-sizing: border-box;
-  border: 1px solid #ddd;
-  padding: 8px;
-  border-radius: 8px;
-  margin-bottom: 16px;
-}
-
-.cart {
-  background-color: #fff;
-  padding: 16px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-}
+/* Resto de tu CSS aquí ... */
