@@ -1,16 +1,16 @@
 import React from "react";
 import BotonCafe from "../BotonCafe";
-import BotonSecion from "../moleculas/Iniciarsecion";
-import SinCuenta from "../moleculas/SinCuenta";
-import EntradaTexto from "../moleculas/EntradaTexto";
-import ConCuenta from "../moleculas/ConCuenta";
+import BotonSecion from "../Iniciarsecion";
+import SinCuenta from "../SinCuenta";
+import EntradaTexto from "../EntradaTexto";
+
 import "./Logins.css";
 
 function Login() {
   return (
     <>
 
-      <div className="titulo">
+      <div className="titulo1">
       <h1>Inicio de sesión</h1>
       </div>
       <EntradaTexto Texto="Email or Number" />

@@ -1,6 +1,6 @@
 // BotonCafe.js
 import React from 'react';
-import './BotonCafe.css'; // Importar los estilos
+import '../components/styles/BotonCafe.css'; // Importar los estilos
 
 const BotonCafe = ({ children, onClick }) => {
   return (

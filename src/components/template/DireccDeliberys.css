@@ -1,0 +1,40 @@
+.DireccDelibery{
+    background-color: #DDC08D;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+  }
+
+  .titulo h1{
+    font-size: 32px;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+.subtitulo h2{
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 0;
+   
+}
+
+.mapa {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  
+
+}
+
+.entradas-de-texto {
+    margin-top: -5px;
+    margin-bottom: -25px;
+}

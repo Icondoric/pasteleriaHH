@@ -1,0 +1,31 @@
+.Registrarse{
+    background-color: #DDC08D;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+
+
+  .titulo2 h1{
+    font-size: 28px;
+    margin-top: 220px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.fondo-imagen2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+  }

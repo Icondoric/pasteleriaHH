@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/iniciarsecions.css'; 
+import '../components/styles/Iniciarsecions.css'; 
 
 const BotonSecion = ({ children, onClick, imagenSrc, imagenAlt }) => {
   return (
     <button className="boton-Secion" onClick={onClick}>
-      <img src= "/Group 20Google.png"alt="Inicia sesión con Goggle" className="google" />
+      <img src= "/Group 20Google.png"alt="Inicia sesión con Goggle Parangaricuritirimicuaro" className="google" />
       Inicia sesión con Google
       {children}
     </button>

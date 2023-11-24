@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../styles/SinCuentas.css';
+import '../components/styles/SinCuentas.css';
     const SinCuenta = () => {
   return (
     <div className='textos1'>

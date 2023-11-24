@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../styles/ConCuentas.css';
+import '../components/styles/ConCuentas.css';
     const ConCuenta = () => {
   return (
     <div className='textos'>
