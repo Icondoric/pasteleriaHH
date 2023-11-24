@@ -19,3 +19,4 @@ const CategoriaPasteles = (props) => {
 };
 
 export default CategoriaPasteles;
+//comentario para el commit
