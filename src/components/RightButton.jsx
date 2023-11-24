@@ -1,5 +1,6 @@
 // RightButton.js
-import React from 'react';
+import React from 'react'
+import './styles/RightButton.css'
 
 const RightButton = () => {
   return (

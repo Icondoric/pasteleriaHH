@@ -1,6 +1,6 @@
 // SearchBar.js
 import React from 'react';
-import './SearchBar.css'; // Importa los estilos
+import './styles/SearchBar.css'; // Importa los estilos
 
 const SearchBar = () => {
   return (

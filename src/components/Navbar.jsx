@@ -1,11 +1,11 @@
 // Navbar.js
 import React from 'react';
-import LeftButton from '../components/styles/LeftButton';
-import RightButton from '../components/styles/RightButton';
-import SearchBar from '../components/styles/SearchBar';
-import './LeftButton.css'; // Importar estilos para LeftButton
-import './RightButton.css'; // Importar estilos para RightButton
-import './Navbar.css'; // Importar estilos para Navbar
+import LeftButton from '../components/LeftButton';
+import RightButton from '../components/RightButton';
+import SearchBar from '../components/SearchBar';
+import './styles/LeftButton.css'; 
+import './styles/RightButton.css';
+import './styles/Navbar.css'; 
 
 const Navbar = () => {
   return (
