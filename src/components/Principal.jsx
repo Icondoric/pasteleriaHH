@@ -6,11 +6,11 @@ import Menu from './Menu';
 import Pasteles from './Pasteles';
 import './Principal.css';
 import BotonCafe from './BotonCafe';
-import BotonSecion from '../components/moleculas/Iniciarsecion';
+import BotonSecion from './Iniciarsecion';
 import { fetchProducts } from '../assets/api';
-import SinCuenta from './moleculas/SinCuenta';
-import EntradaTexto from './moleculas/EntradaTexto';
-import ConCuenta from './moleculas/ConCuenta';
+import SinCuenta from './SinCuenta';
+import EntradaTexto from './EntradaTexto';
+import ConCuenta from './ConCuenta';
 
 
 
