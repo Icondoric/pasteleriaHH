@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./CategoriaMuffins.css";
-import HeaderMuffins from "./HeaderMuffins";
+import HeaderCategorias from "./HeaderCategorias";
 import MuffinSection from "./MuffinsSection";
 
 const CategoriaMuffins = (props) => {
   const infoMuffins = props.infoMuffins;
   return (
     <div className="principal">
-      <HeaderMuffins />
+      <HeaderCategorias>
+        Muffins
+      </HeaderCategorias>
       {infoMuffins.map((info) => {
         return <MuffinSection infoMuffins={info} />;
       })}
