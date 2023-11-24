@@ -49,6 +49,7 @@ function InformacionTarj() {
             </form>
         </div>
     </div>
+    
     </div>
   );
 }

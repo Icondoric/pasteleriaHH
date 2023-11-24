@@ -1,0 +1,18 @@
+
+.TitTigoMon{
+    width: 400px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    margin: 5px 0px 25px;
+}
+.SubIniciar{
+    text-align: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

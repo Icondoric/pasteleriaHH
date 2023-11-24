@@ -8,17 +8,17 @@ body {
   height: 100vh; /* Ocupa el 100% de la altura de la ventana */
 }
 
-.app-container {
-  width: 430px; /* Ancho del iPhone 14 */
-  height: 939px; /* Altura del iPhone 14 */
-  overflow: hidden; /* Evitar desbordamientos */
-  border: 16px solid #000; /* Simular el marco del iPhone */
-  border-radius: 16px; /* Bordes redondeados */
-  position: relative;
-  background-color: #f8f8f8; /* Color de fondo del "teléfono" */
-  display: flex;
-  flex-direction: column; /* Ajusta el contenido en una columna */
-}
+  .app-container {
+    width: 430px; /* Ancho del iPhone 14 */
+    height: 939px; /* Altura del iPhone 14 */
+    overflow: hidden; /* Evitar desbordamientos */
+    border: 16px solid #000; /* Simular el marco del iPhone */
+    border-radius: 16px; /* Bordes redondeados */
+    position: relative;
+    background-color: #f8f8f8; /* Color de fondo del "teléfono" */
+    display: flex;
+    flex-direction: column; /* Ajusta el contenido en una columna */
+  }
 
 header {
   background-color: #333;
